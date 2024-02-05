@@ -1079,6 +1079,24 @@ html::-webkit-scrollbar-thumb{
     }
 }
 
+/* For side window */
+@media screen and (min-width: 918px){
+    .project__bg {
+        width: 115.5vh;
+    }
+    .project__container{
+        display: flex;
+        justify-content: center;
+        padding-top: -5rem;
+        padding-left: 3rem;
+        height: 25vh;
+    }
+    .project__data{
+        padding-top: -5rem;
+        padding-left: 0rem;
+    }
+}
+
 /* For large devices */
 
 @media screen and (min-width: 1024px) {
